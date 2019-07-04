@@ -1,7 +1,7 @@
 
 const Mylist = () => (
     <div>
-        <div class="col-md-12" align="center">
+        <div class="col-md-12 bg-secondary" align="center">
             <h1>My List</h1>
         </div>
     </div>
