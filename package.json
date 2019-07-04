@@ -1,0 +1,26 @@
+{
+    "name": "fitt",
+    "description": "DTCI",
+    "version": "1.0.19",
+    "author": "<ricardo.ibarra@disney.com>",
+    "dependencies": {
+        "@zeit/next-css": "^1.0.1",
+        "express": "^4.17.1",
+        "next": "^8.1.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.0.1",
+        "@babel/register": "^7.0.0",
+        "enzyme": "^3.6.0",
+        "enzyme-adapter-react-16": "^1.5.0",
+        "expect.js": "^0.3.1",
+        "mocha": "^5.2.0"
+    },
+    "scripts": {
+        "mocha:all": "mocha \"./src/components/**/test/*mocha.js\"",
+        "start": "node app.js",
+        "test": "NODE_ENV=test mocha"
+    }
+}
